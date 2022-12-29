@@ -76,6 +76,7 @@ article {
 
 .image {
     width: 50vw;
+    z-index: -1;
 }
 
 .image img {
