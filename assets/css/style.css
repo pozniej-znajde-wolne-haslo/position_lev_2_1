@@ -45,8 +45,8 @@ article {
 }
 
 .hero_group h1 {
-    width: 22rem;
-    font-size: 3rem;
+    width: 22vw;
+    font-size: 3vw;
     letter-spacing: 0;
     line-height: 1.5; 
     position: relative;
@@ -55,8 +55,8 @@ article {
 }
 
 .hero_group p {
-    width: 35rem;
-    font-size: 1.2rem;
+    width: 35vw;
+    font-size: 1.2vw;
     line-height: 1.4;
     position: relative;
     top: 25vh;
@@ -64,8 +64,8 @@ article {
 }
 
 .hero_group button {
-    width: 22rem;
-    font-size: 1.2rem;
+    width: 22vw;
+    font-size: 1.2vw;
     padding: .8rem 0;
     position: relative;
     top: 35vh;
