@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: Playfair;
+    font-variation-settings: "wght" 500;
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%
+}
+
+body {
+    font-size: 1.6rem;
+    max-width: 144rem;
+    height: 100vh;
+    background-color: rgb(238,239,227); 
+}
+
+/*  --- Fonts --- */
+.font_poppins{
+    font-family: Poppins;
+}
+
+.font_playfair {
+    font-family: Playfair;
+}
+
+/*  --- Article --- */
+article {
+    display: flex;
+}
+
+.hero_group { 
+    width: 50vw;
+}
+
+.hero_group h1 {
+    width: 22rem;
+    font-size: 3rem;
+    letter-spacing: 0;
+    line-height: 1.5; 
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+}
+
+.hero_group p {
+    width: 35rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    position: relative;
+    top: 25vh;
+    left: 10vw;
+}
+
+.hero_group button {
+    width: 22rem;
+    font-size: 1.2rem;
+    padding: .8rem 0;
+    position: relative;
+    top: 35vh;
+    left: 10vw;
+    background-color: rgb(245,169,65);
+    border-radius: 5rem;
+}
+
+.image {
+    width: 50vw;
+}
+
+.image img {
+    width: 65vw;
+    position: relative;
+    right: 5vw;
+}
+
